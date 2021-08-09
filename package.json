@@ -1,0 +1,12 @@
+{
+  "name": "elm-form",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "elm make ./src/Main.elm  --optimize",
+    "build": "./optimize.sh ./src/Main.elm",
+    "watch": "elm reactor"
+  },
+  "author": "Daniel Nekrasov",
+  "license": "ISC"
+}
